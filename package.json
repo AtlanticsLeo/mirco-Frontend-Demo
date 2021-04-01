@@ -1,0 +1,23 @@
+{
+  "name": "microfe",
+  "version": "1.0.0",
+  "description": "some basic random micro front end demo written by an idiot",
+  "main": "index.js",
+  "scripts": {
+    "test": "ross-env NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtlanticsLeo/mirco-Frontend-Demo.git"
+  },
+  "keywords": [
+    "mirco",
+    "frontend"
+  ],
+  "author": "Nardo Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtlanticsLeo/mirco-Frontend-Demo/issues"
+  },
+  "homepage": "https://github.com/AtlanticsLeo/mirco-Frontend-Demo#readme"
+}
