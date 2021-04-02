@@ -1,0 +1,11 @@
+<html>
+    <h1>Hello World</h1>
+    <button onclick="push('/Definitely-not-react')">React</button>
+    <button onclick="push('/Definitely-not-vue')">Vue</button>
+    <button onclick="push('/angular')">HTML</button>
+    <main id="subapp-container"></main>
+
+    <script>
+        function push(subapp) { history.pushState(null, subapp, subapp) }
+    </script>
+</html>
